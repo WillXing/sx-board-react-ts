@@ -1,0 +1,26 @@
+.card_con {
+  background-color: #E9E9E9;
+  border: 1px solid #979797;
+  border-radius: 8px;
+  width: 395px;
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+}
+.card_title {
+  align-self: flex-start;
+  font-weight: bold;
+  font-size: 42px;
+  color: #6C6C6C;
+  letter-spacing: 0.55px;
+  margin: 10px 0 0 10px;
+}
+
+.card_desc {
+  align-self: flex-start;
+  font-size: 28px;
+  color: #6C6C6C;
+  letter-spacing: 0.37px;
+  text-align: left;
+  margin: 20px 0 0 10px;
+}

@@ -1,0 +1,26 @@
+.banner_bg {
+  margin: 0;
+  background-color: #006F66;
+  display: -webkit-flex;
+  display: flex;
+  height: 120px;
+  padding: 0 35px;
+  justify-content: space-between;
+}
+.banner_title {
+  color: #FFFFFF;
+  line-height: 120px;
+  height: 120px;
+  font-size: 48px;
+  font-weight: bold;
+  font-style: italic;
+}
+.banner_date {
+  color: #FFFFFF;
+  align-self: flex-end;   
+  line-height: 120px;
+  height: 120px;
+  font-size: 48px;
+  font-weight: bold;
+  font-style: italic;
+}

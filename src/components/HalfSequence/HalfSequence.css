@@ -1,0 +1,17 @@
+.half_sequence_con {
+  height: 490px;
+  border-bottom: 1px solid #979797;
+  padding: 25px 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: space-around; 
+}
+.half_sequence_title {
+  font-weight: bold;
+  font-size: 42px;
+  color: #000000;
+  letter-spacing: 0.55px;
+  width: 100%;
+  font-style: italic;
+}
