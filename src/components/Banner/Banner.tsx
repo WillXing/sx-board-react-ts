@@ -8,7 +8,7 @@ export class Banner extends React.Component {
   render() {
     return (
       <div className="banner_bg">
-        <span className="banner_title">Banner</span>
+        {/* <span className="banner_title">Banner</span> */}
         <span className="banner_date">2 Aug 2017</span>
       </div>
     );

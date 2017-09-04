@@ -1,0 +1,84 @@
+.card_detail_panel {
+  height: 1200px;
+  width: 1100px;
+  /* flex: 0 0 57%; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card_detail {
+  width: 693px;
+  height: 958px;
+  border-radius: 30px;
+  background-color: #EFEFEF;
+  border: 1px #979797 solid;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: space-between; 
+}
+
+.card_title {
+  font-weight: bold;
+  font-size: 46px;
+  color: #000000;
+  letter-spacing: 0.61px;
+  margin: 33px 0 0 49px;
+}
+.card_desc {
+  font-weight: bold;
+  font-size: 34px;
+  color: #000000;
+  letter-spacing: 0.45px;
+  margin: 32px 23px 0 23px;
+  text-align: left;
+}
+.card_info_container {
+  margin: 80px 50px 0 50px;
+  display: flex;
+}
+.card_info_lists {
+  width: 400px;
+  height: 540px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 40px;
+}
+.card_info_avatar {
+  border-radius: 50%;
+  background: #D8D8D8;
+  border: 1px solid #979797;
+  width: 150px;
+  height: 150px;
+}
+.card_info_item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+.card_info_item_field {
+  font-size: 32px;
+  color: #000000;
+  letter-spacing: 0.45px;
+  font-weight: bold;
+}
+.card_info_item_value {
+  font-size: 30px;
+  color: #000000;
+  letter-spacing: 0.45px;
+}
+
+.card_due_date {
+  bottom: 0;
+  width: 100%;
+  background: #F0781C;
+  border-radius: 30px;
+  height: 89px;
+  position: relative;
+  top: 3px;
+  font-size: 38px;
+  color: #FFFFFF;
+  letter-spacing: 0.5px;
+  font-weight: bold;
+  line-height: 89px;
+}

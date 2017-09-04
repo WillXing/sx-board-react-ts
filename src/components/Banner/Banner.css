@@ -5,7 +5,7 @@
   display: flex;
   height: 120px;
   padding: 0 35px;
-  justify-content: space-between;
+  justify-content: center;
 }
 .banner_title {
   color: #FFFFFF;
@@ -17,7 +17,6 @@
 }
 .banner_date {
   color: #FFFFFF;
-  align-self: flex-end;   
   line-height: 120px;
   height: 120px;
   font-size: 48px;
