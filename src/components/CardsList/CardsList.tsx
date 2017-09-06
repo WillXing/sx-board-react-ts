@@ -10,6 +10,7 @@ export class CardsList extends React.Component<{},{}> {
       <CardsBlock></CardsBlock>
       <CardsBlock></CardsBlock>
       <CardsBlock></CardsBlock>
+      <CardsBlock></CardsBlock>
     </div>)
   }
 } 
