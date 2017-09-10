@@ -6,15 +6,47 @@
   justify-content: center;
   align-items: center;
 }
-.card_detail {
+.card_center_container {
   width: 750px;
   height: 970px;
+}
+.card_detail {
+  position: absolute;
   border-radius: 30px;
   background-color: #FFFFFF;
   display: flex;
   align-items: flex-start;
   flex-direction: column;
-  justify-content: space-between; 
+  justify-content: space-between;
+  
+  
+  backface-visibility: hidden;
+
+  animation: flip_rev 2s 0s ease;
+  animation-fill-mode: forwards;
+}
+.test {
+  animation: flip 2s 0s ease;
+  animation-fill-mode: forwards;
+}
+.bg {
+  background-color: #A9F9F9;
+}
+@keyframes flip{
+  0% {
+    transform: rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(180deg);
+  }
+}
+@keyframes flip_rev{
+  0% {
+    transform: rotateY(180deg);
+  }
+  100% {
+    transform: rotateY(0deg);
+  }
 }
 
 .card_title {

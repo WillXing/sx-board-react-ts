@@ -3,12 +3,9 @@ import * as ReactDOM from 'react-dom';
 import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 import './index.css';
-import { AppState } from './state/AppState';
-
-const appState = new AppState();
 
 ReactDOM.render(
-  <App appState={appState} />,
+  <App/>,
   document.getElementById('root') as HTMLElement
 );
 registerServiceWorker();

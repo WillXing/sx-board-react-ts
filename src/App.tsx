@@ -4,18 +4,19 @@ import './App.css';
 // import { HalfSequence } from './components/HalfSequence/HalfSequence';
 import { CardsList } from './components/CardsList/CardsList';
 import { CardDetail } from './components/CardDetail/CardDetail';
-import { AppState } from './state/AppState';
+import appState from './state/AppState';
 
-class App extends React.Component<{ appState: AppState }, {}> {
+class App extends React.Component<{}, {}> {
   render() {
     return (
       <div className="App">
-        <CardDetail></CardDetail>
+        <CardDetail flag={appState.flag} cardDetailFront = {appState.cardDetailFront} cardDetailBack = {appState.cardDetailBack}></CardDetail>
         <CardsList></CardsList>
         {/* <Banner /> */}
         {/* <HalfSequence cards={this.props.appState.digitalCards} title="Digital"/> */}
         {/* <HalfSequence cards={this.props.appState.customerCards} title="Customer"/> */}
       </div>
+
     );
   }
 }
